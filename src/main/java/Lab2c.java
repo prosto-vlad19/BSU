@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import javax.swing.*;
 
 public class Lab2c {
     static void show(int[][] matr,int n)
@@ -13,11 +12,11 @@ public class Lab2c {
             System.out.println();
         }
     }
-    static int inint(String text)
+    /*static int inint(String text)
     {
         int a=Integer.parseInt(JOptionPane.showInputDialog(text));
         return a;
-    }
+    }*/
     public static void main(String[] Args)
     {
         Scanner in=new Scanner(System.in);
